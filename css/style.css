@@ -115,6 +115,10 @@ footer{
     text-transform: uppercase;
 }
 
+.Portafolio{
+    width: 400%;
+}
+
 @media screen and (max-width:988px){
     .titulo{
         font-size: 5vw;
