@@ -39,15 +39,16 @@ p{
 }
 
 .btn{
-background-color: #000033;
-
+    width: 15vw;
+    border-radius: 22px;
+    position: relative;
+    left: 39%;
+    align-items: center;
+    text-transform: uppercase;
 }
 
-
 .service{
-color: #000033;
-
-
+    color: #000033;
 }
 
 nav {
@@ -91,7 +92,7 @@ nav ul li a::after {
     bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
-    background: #003566;
+    background: #ffffff;
     transition: width 0.4s;
 }
 
@@ -103,7 +104,7 @@ footer{
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-    background-color: #00003370;
+    background-color: #000033;
     padding-bottom: 10px;
 }
 
@@ -111,6 +112,7 @@ footer{
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
+    text-transform: uppercase;
 }
 
 @media screen and (max-width:988px){
@@ -150,4 +152,10 @@ footer{
     p{
         font-size: 4.5vw;
     }
+
+.btn{ 
+width: max-content;
+}
+
+
 }
