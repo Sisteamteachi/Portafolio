@@ -113,6 +113,10 @@ footer{
     align-items: center; /* Centra verticalmente */
 }
 
+.Portafolio{
+    width: 400%;
+}
+
 @media screen and (max-width:988px){
     .titulo{
         font-size: 5vw;
