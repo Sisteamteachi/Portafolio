@@ -92,6 +92,19 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+footer{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #133c55;
+    padding-bottom: 10px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
 
 @media screen and (max-width:988px){
     .titulo{
@@ -119,7 +132,7 @@ nav ul li a:hover::after {
     }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:490px){
     .titulo{
         font-size: 9vw;
     }
