@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #f9f6f6;
@@ -20,6 +21,25 @@ body{
     background-color: #00003370;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.carta{
+height: max-content;
+width: 50vw;
+position: relative;
+left: 10vw;
+display: flex;
+overflow: scroll;
+scroll-snap-type: x mandatory;
+}
+
+
+.carta img{
+width: 100%;
+position: sticky;
+object-fit: cover;
+border-radius: 10px;
+scroll-snap-align: center;
 }
 
 p{
@@ -145,7 +165,7 @@ footer{
     }
 }
 
-@media screen and (max-width:490px){
+@media screen and (max-width:390px){
     .titulo{
         font-size: 9vw;
     }
@@ -159,6 +179,30 @@ footer{
 
 .btn{ 
 width: max-content;
+}
+
+.carta{
+width: 100%;
+object-fit: cover;
+image-rendering: initial;
+position: relative;
+left: 2vw;
+}
+
+nav{
+  color: #000033;
+  display: flex;
+  /*color: black;*/
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+nav ul li::after {
+  display: flex;
+  color: #000033;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 
