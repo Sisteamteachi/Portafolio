@@ -57,7 +57,7 @@ p {
   text-transform: uppercase;
 }
 
-.btn {
+.button {
   width: 15vw;
   border-radius: 22px;
   position: relative;
@@ -176,7 +176,7 @@ footer {
     font-size: 4.5vw;
   }
 
-  .btn {
+  .button {
     width: max-content;
   }
 
