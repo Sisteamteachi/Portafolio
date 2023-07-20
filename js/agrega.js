@@ -48,6 +48,10 @@ function save(){
     let phone = document.getElementById('phone').value
     let message = document.getElementById('message').value
     //
+    document.getElementById('email').value = ""
+    document.getElementById('name').value = ""
+    document.getElementById('phone').value = ""
+    document.getElementById('message').value = ""
     let resulemail = patterEmail.test(email) 
     let resulname = patterName.test(name)
     let resulphone = patterPhone.test(phone)
@@ -78,15 +82,17 @@ function save(){
       fetch(apiUrl, requestOptions)
         .then(response => response.json())
         .then(data => {
-          console.log('Respuesta de la API:', data);
           document.getElementById('erroremail').value = ""
           document.getElementById('errorname').value = ""
           document.getElementById('errorphone').value= ""
           exitoPost.show(modalToggle);
         })
         .catch(error => {
+            document.getElementById('email').value = email
+            document.getElementById('name').value = name
+            document.getElementById('phone').value = phone
+            document.getElementById('message').value = message
             errorPost.show(modalToggle);
-          console.error('Error al enviar el objeto:', error);
         });
 }
 
