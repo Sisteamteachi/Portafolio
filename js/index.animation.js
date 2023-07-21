@@ -10,21 +10,20 @@ gsap.from(".service", {fadein: true, x: 1500, duration: 4, opacity: 0 });
 gsap.to(".service", {fadein: true, x: -5, duration: 4, opacity: 1 });
 
 
-const portfolioSection = document.getElementById("portfolio");
+const portfolioSection = document.getElementById("portafolio");
 
 gsap.registerPlugin(ScrollTrigger);
 
-const timeline = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".portfolio-section",
-    start: "top center",
-    end: "bottom center",
-    toggleActions: "play none none reverse",
-  },
-});
 
-timeline.fromTo(
-  portfolioSection,
-  { backgroundColor: "transparent" },
-  { backgroundColor: "#000033", duration: 1 }
-);
+
+
+
+gsap.to(".c",{
+  scrollTrigger: {
+    trigger: "#c",
+    toggleActions: "play   reverse",
+  },
+  duration:4,
+  background:"#000033",
+  color:"#000000"
+})
