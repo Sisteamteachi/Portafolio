@@ -25,14 +25,13 @@ body{
 
 .carta{
 height: max-content;
-width: 65vw;
+width: 70vw;
 position: relative;
 left: 10vw;
 display: flex;
 overflow: scroll;
 scroll-snap-type: x mandatory;
 }
-
 
 .carta img{
 width: 100%;
