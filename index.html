@@ -88,7 +88,7 @@
         </div>
       </section>
 
-      <h3 class="text-center mt-5 titulo" id="servicio">Elige el servicio que deseas</h3>
+      <h1 class="text-center mt-5 titulo" id="servicio">Elige el servicio que deseas</h1>
 
       <section class="mt-5">
         <div class="row">
@@ -154,7 +154,7 @@
           <div class="col-md-4 col-12 text-center">
             <h2 class=" mt-5 service">Presencia Digital</h2>
             <br />
-            <img src="img/websvg.svg" alt="log-web" class="img-logo service" />
+            <img src="img/websvg.svg" alt="log-web"  class="img-logo service" />
             <p class="mt-4 service">
               Genera en tus clientes más confianza al estar en línea.
             </p>
@@ -163,7 +163,7 @@
           <div class="col-md-4 col-12 text-center">
             <h2 class=" mt-5 service">Vende más</h2>
             <br />
-            <img src="img/car.svg" alt="log-web" class="img-logo service" />
+            <img src="img/car.svg" alt="log-web"  class="img-logo service" />
             <p class="mt-4 service">
               Permite elegir productos y diferentes métodos de pago.
             </p>
@@ -179,52 +179,44 @@
           </div>
         </div>
       </section>
-      <section class="portafolio c mt-5 text-white"  id="c">
+      <section class="portafolio c mt-5 text-white pe-2 ps-2 pb-2"  id="c">
         <h1 class="text-center titulo mb-5" id="portafolio">Portafolio</h1>
         <p>
           Estas son algunas de nuestras aplicaciones, que destacan por estar desarrolladas con las últimas tecnologías del mercado. Ofrecemos soluciones innovadoras para tu negocio en la web, hemos aprovechado las herramientas más avanzadas y enfoques tecnológicos para garantizar una experiencia de usuario excepcional.
         </p>
-        <div class="row  container carta">
-          <div class="col-12 col-md-6 mt-5">
-            <div class="">
-              <a href="https://api-hotel-m31b-frrd4rizf-juantorres-dev.vercel.app/home/inicio" target="_blank">
-                <img src="img/testla.png" alt="">
-              </a>
-            </div>
+        <div class="row ">
+          <div class="col-12 col-md-6">
+            <a href="https://api-hotel-m31b-frrd4rizf-juantorres-dev.vercel.app/home/inicio" aria-label="tesla" target="_blank">
+              <img src="img/testla.png" class="img-fluid w-100 h-100 shadow zoom">
+            </a>
           </div>
-  
-          <div class="col-12 col-md-6 mt-5">
-            <div>
-              <a href="https://og-house.vercel.app/" target="_blank">
-                <img src="/img/img-portafolio-2.jpg" alt="">
-              </a>
-            </div>
+          <div class="col-12 col-md-6 ">
+            <a href="https://og-house.vercel.app/" aria-label="og-house" class="me-3">
+              <img src="img/img-portafolio-2.jpg" class="img-fluid w-100 h-100 shadow zoom" target="_blank">
+            </a>
           </div>
+      </div>
 
-          <div class="col-12 col-md-6 mt-2">
-            <div>
-              <a href="https://big-data-area-metropolitana-16fsz7twc-juantorres-dev.vercel.app/home/inicio" target="_blank">
-                <img src="img/bigData.png" alt="">
-              </a>
-              
-            </div>
-          </div>
+      <div class="row mt-3 ">
 
-          <div class="col-12 col-md-6 mt-2">
-            <div>
-              <a href="https://lapland-zone.vercel.app/" target="_blank">
-                <img src="/img/img-portafolio-4.jpg" alt="">
-              </a>
-            </div>
+          <div class="col-12 col-md-6">
+            <a href="https://big-data-area-metropolitana-16fsz7twc-juantorres-dev.vercel.app/home/inicio" aria-label="bigData" target="_blank">
+              <img src="img/bigData.png" class="img-fluid w-100 h-100 shadow zoom">
+            </a>
           </div>
-        </div>
+          <div class="col-12 col-md-6 ">
+            <a href="https://lapland-zone.vercel.app/" class="me-3">
+              <img src="img/img-portafolio-4.jpg" class="img-fluid w-100 h-100 shadow zoom" aria-label="lapland-zone" target="_blank">
+            </a>
+          </div>
+      </div>
       </section>
       <section class="mt-5 ">
         <h1 class="text-center titulo" id="contactanos">Déjanos un mensaje</h1>
         <br />
         <div class="row">
           <div class="col-12 col-md-6 mt-5">
-            <label for="" class="form-label">Nombre</label>
+            <label for="#name" class="form-label">Nombre</label>
             <input
               type="text"
               class="form-control"
@@ -236,7 +228,7 @@
           </div>
 
           <div class="col-12 col-md-6 mt-5">
-            <label for="" class="form-label">Correo</label>
+            <label for="#email" class="form-label">Correo</label>
             <input
               type="text"
               class="form-control"
@@ -249,7 +241,7 @@
 
           <div class="col-12">
             <br />
-            <label for="" class="form-label">Telefono</label>
+            <label for="#phone" class="form-label">Telefono</label>
             <input
               type="number"
               class="form-control"
@@ -262,11 +254,12 @@
 
           <div class="col-12">
             <br />
-            <label for="" class="form-label">Mensaje</label>
+            <label for="#message" class="form-label">Mensaje</label>
             <textarea
               class="form-control"
               id="message"
               rows="3"
+              placeholder="Ingrese informacion adicional"
             ></textarea>
           </div>
         </div>
@@ -279,24 +272,6 @@
         Todos los derechos reservados. Copyright© SoftKernel 2023
       </div>
     </footer>
-
-
-    <div class="modal fade" tabindex="-1" id="NoExiste">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">!Boleta No Encontrada!</h5>
-          </div>
-          <div class="modal-body">
-              <p>La Boleta que Acabas de ingresar ya la tiene otro usuari porfavor elija otra boleta</p>
-          </div>
-          <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-          </div>
-      </div>
-  </div>
-
 
   <div class="modal fade" tabindex="-1" id="errorPost">
     <div class="modal-dialog">
@@ -330,46 +305,7 @@
     </div>
   </div> 
   
-  <!-- <section class="c" id="c">
-    <h1 class="text-center titulo mb-5" id="portafolio">Portafolio</h1>
-    <p>
-      Estas son algunas de nuestras aplicaciones, que destacan por estar desarrolladas con las últimas tecnologías del mercado. Ofrecemos soluciones innovadoras para tu negocio en la web, hemos aprovechado las herramientas más avanzadas y enfoques tecnológicos para garantizar una experiencia de usuario excepcional.
-    </p>
-    <div class="row  container carta">
-      <div class="col-12 col-md-6 mt-5">
-        <div class="">
-          <a href="https://api-hotel-m31b-frrd4rizf-juantorres-dev.vercel.app/home/inicio" target="_blank">
-            <img src="img/testla.png" alt="">
-          </a>
-        </div>
-      </div>
 
-      <div class="col-12 col-md-6 mt-5">
-        <div>
-          <a href="https://og-house.vercel.app/" target="_blank">
-            <img src="/img/img-portafolio-2.jpg" alt="">
-          </a>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 mt-2">
-        <div>
-          <a href="https://big-data-area-metropolitana-16fsz7twc-juantorres-dev.vercel.app/home/inicio" target="_blank">
-            <img src="img/bigData.png" alt="">
-          </a>
-          
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 mt-2">
-        <div>
-          <a href="https://lapland-zone.vercel.app/" target="_blank">
-            <img src="/img/img-portafolio-4.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
  
     <script

@@ -23,7 +23,6 @@ gsap.to(".c",{
     trigger: "#c",
     toggleActions: "play   reverse",
   },
-  duration:4,
+  duration:3,
   background:"#000033",
-  color:"#000000"
 })
