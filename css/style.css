@@ -137,7 +137,16 @@ footer{
     background-color: #000033;
 }
 
-
+.modal-footer{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+.button{
+    border-radius: 22px;
+    width: 15vw;
+    background: #000033;
+}
 .Portafolio{
     width: 400%;
 }
