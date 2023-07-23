@@ -16,7 +16,8 @@ body{
 }
 
 .img-logo{
-    width: 20%;
+    height: 40%;
+    width: 50%;
 }
 
  .card{
@@ -164,8 +165,14 @@ footer{
     }
 
     p{
-        font-size: 2.5vw;
+        font-size: 2.8vw;
     }
+
+    .img-logo{
+        height: 50%;
+        width: 50%;
+    }
+
 }
 
 @media screen and (max-width:390px){
