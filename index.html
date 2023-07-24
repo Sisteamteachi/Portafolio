@@ -14,13 +14,15 @@
     
     Juntos, podemos llevar tu empresa al siguiente nivel con las soluciones de software más avanzadas y eficientes del mercado. ¡Contáctanos hoy mismo y descubre cómo podemos hacer que tu visión se haga realidad con nuestro enfoque de última tecnología en el desarrollo de software!"/>
 
-    <title>Sistemteach</title>
+    <title>TechServices</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -180,36 +182,46 @@
         </div>
       </section>
       <section class="portafolio c mt-5 text-white pe-2 ps-2 pb-2"  id="c">
-        <h1 class="text-center titulo mb-5" id="portafolio">Portafolio</h1>
-        <p>
-          Estas son algunas de nuestras aplicaciones, que destacan por estar desarrolladas con las últimas tecnologías del mercado. Ofrecemos soluciones innovadoras para tu negocio en la web, hemos aprovechado las herramientas más avanzadas y enfoques tecnológicos para garantizar una experiencia de usuario excepcional.
-        </p>
-        <div class="row ">
-          <div class="col-12 col-md-6">
+        <h1 class="text-center titulo mb-5 portafolio" id="portafolio">Portafolio</h1>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">  
             <a href="https://api-hotel-m31b-frrd4rizf-juantorres-dev.vercel.app/home/inicio" aria-label="tesla" target="_blank">
               <img src="img/testla.webp" alt="tesla" class="img-fluid imgp w-100 h-100 shadow zoom">
             </a>
-          </div>
-          <div class="col-12 col-md-6 ">
+            </div>
+            <div class="swiper-slide">  
             <a href="https://og-house.vercel.app/" aria-label="og-house" class="me-3"  target="_blank">
-              <img src="img/img-portafolio-2.webp" alt="og-house" class="img-fluid imgp w-100 h-100 shadow zoom">
+            <img src="img/img-portafolio-2.webp" alt="og-house" class="img-fluid imgp w-100 h-100 shadow zoom">
             </a>
-          </div>
-      </div>
-
-      <div class="row mt-3 ">
-
-          <div class="col-12 col-md-6">
+            </div>
+            <div class="swiper-slide">
             <a href="https://big-data-area-metropolitana-16fsz7twc-juantorres-dev.vercel.app/home/inicio" aria-label="bigData" target="_blank">
               <img src="img/bigData.webp" alt="bigData" class="img-fluid imgp w-100 h-100 shadow zoom">
             </a>
-          </div>
-          <div class="col-12 col-md-6 ">
+            </div>
+            <div class="swiper-slide">
             <a href="https://lapland-zone.vercel.app/" class="me-3"  target="_blank">
               <img src="img/img-portafolio-4.webp" alt="lapland" class="img-fluid imgp w-100 h-100 shadow zoom" aria-label="lapland-zone">
             </a>
+            </div>
           </div>
-      </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      <br>  
+          <p class="port-text">
+          Estas son algunas de nuestras aplicaciones, que destacan por estar desarrolladas con las últimas tecnologías del mercado. Ofrecemos soluciones innovadoras para tu negocio en la web, hemos aprovechado las herramientas más avanzadas y enfoques tecnológicos para garantizar una experiencia de usuario excepcional.
+          </p>
       </section>
       <section class="mt-5 ">
         <h1 class="text-center titulo" id="contactanos">Déjanos un mensaje</h1>
@@ -299,6 +311,7 @@
     </div>
   </div> 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
