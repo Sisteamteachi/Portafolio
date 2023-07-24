@@ -159,8 +159,16 @@ width: 400%;
     }
 
     p{
-        font-size: 2.5vw;
+    margin-top: 2vw;
+    font-size: 6vw;
+    line-height: 12vw;
     }
+
+.swiper {
+  width: 80vw;
+  height: 115vw;
+}
+
     .btn{
         width: 20vw;
     }
@@ -175,8 +183,15 @@ width: 400%;
     }
 
     p{
-        font-size: 2.8vw;
+    margin-top: 2vw;
+    font-size: 6vw;
+    line-height: 12vw;
     }
+
+.swiper {
+  width: 80vw;
+  height: 115vw;
+}
 
     .img-logo{
         height: 50%;
