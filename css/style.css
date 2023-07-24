@@ -3,10 +3,12 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+
 body{
-    background-color: #f9f6f6;
+    background: rgb(232, 232, 232);
     line-height: 2.5vw;
 }
+
 .img-banner{
     width: 90%;
     border-radius: 22px;
@@ -27,7 +29,6 @@ body{
      background-color: #000033; /*00003370*/
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0);
-     
 }
 
 .carta{
@@ -61,83 +62,92 @@ border-radius: 12px;
 }
 
 .titulo{
-    
-    font-size: 3vw;
-    font-weight: 600;
-    text-transform: uppercase;
+letter-spacing: 3px;
+font-size: 3vw;
+font-weight: 600;
+text-transform: uppercase;
 }
 
 .subtitulo{
-    font-size: 2vw;
-    font-weight: 600;
-    text-transform: uppercase;
+font-size: 2vw;
+font-weight: 500;
+text-transform: uppercase;
 }
 
 .btn{
-    width: 15vw;
-    border-radius: 22px;
-    position: relative;
-    left: 39%;
-    align-items: center;
-    text-transform: uppercase;
+width: 15vw;
+border-radius: 22px;
+position: relative;
+left: 39%;
+align-items: center;
+text-transform: uppercase;
 }
 
 .service{
-    color: #000033;
+color: #000033;
 }
 
 nav {
-    z-index: 2;
-    display: flex;
-    width: 100%;
-    background-color: #000033;
-    align-items: center;
-    padding: 10px;
+z-index: 2;
+display: flex;
+width: 100%;
+background-color: #000033;
+align-items: center;
+padding: 10px;
 }
 
 nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    position: relative;
-    text-transform: uppercase;
-    font-size: 1vw;
+color: #ffffff;
+text-decoration: none;
+position: relative;
+text-transform: uppercase;
+font-size: 1vw;
 }
 
 nav ul li a::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #ffffff;
-    transition: width 0.4s;
+content: '';
+width: 0;
+height: 3px;
+position: absolute;
+bottom: -5px;
+left: 50%;
+transform: translateX(-50%);
+background: #ffffff;
+transition: width 0.4s;
 }
 
 nav ul li a:hover::after {
-    width: 100%;
+width: 100%;
 }
 
 footer{
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    background-color: #000033;
+display: flex;
+justify-content: center; /* Centra horizontalmente */
+align-items: center; /* Centra verticalmente */
+background-color: #000033;
 }
 
 .modal-footer{
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+display: flex;
+justify-content: center; /* Centra horizontalmente */
+align-items: center; /* Centra verticalmente */
 }
 .button{
-    border-radius: 22px;
-    width: 15vw;
-    background: #000033;
+border-radius: 22px;
+width: 15vw;
+background: #000033;
 }
 .Portafolio{
-    width: 400%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 400%;
+}
+
+.swiper {
+  width: 50vw;
+  height: 25vw;
 }
 
 @media screen and (max-width:988px){
@@ -176,17 +186,18 @@ footer{
 }
 
 @media screen and (max-width:390px){
-    .titulo{
+
+.titulo{
         font-size: 9vw;
     }
-    .subtitulo{
+.subtitulo{
         font-size: 7vw;
     }
 
-    p{
+p{
         margin-top: 2vw;
-        font-size: 4.7vw;
-        line-height: 10vw;
+        font-size: 6vw;
+        line-height: 12vw;
     }
 
 .btn{ 
@@ -196,6 +207,7 @@ width: max-content;
 .carta{
 padding: 10px;
 }
+
 
 nav{
   color: #000033;
@@ -211,6 +223,11 @@ nav ul li::after {
   color: #000033;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.swiper {
+  width: 80vw;
+  height: 115vw;
 }
 
 
