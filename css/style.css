@@ -38,15 +38,16 @@ body{
 
 .card_one {
   display: block;
-  width: 25vw;
-  height:30vw;
+  /* width: 25vw;
+  height:30vw; */
   background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px) saturate(180%);
   border-radius: 12px;
-  margin: 1vw;
+  margin: 1vw; 
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  padding: 1vw;
 }
 
 .card_one:hover {
